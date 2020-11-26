@@ -1,0 +1,17 @@
+name: mdcode-linter
+version: 0.1.0
+
+authors:
+  - Johannes Müller <straightshoota@gmail.com>
+
+targets:
+  md-code-linter:
+    main: src/cli.cr
+
+crystal: 0.32.1
+
+license: MIT
+
+dependencies:
+  markd:
+    github: icyleaf/markd
